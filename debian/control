@@ -1,9 +1,13 @@
 Source: cde-desktop
 Section: x11
 Priority: optional
-Maintainer: TheSelousScout <nicetrynsa@protonmail.ch>
-Build-Depends: debhelper (>= 10),
-               automake,
+Maintainer: UbuntuCDE Remix Maintainers <UbuntuCDE@protonmail.com>
+Uploaders:
+ Joshua Peisach <itzswirlz2020@outlook.com>,
+ Joey Schaff <UbuntuCDE@protonmail.com>
+Build-Depends: automake,
+               debhelper (>= 12),
+               debhelper-compat (= 13),
                libxt-dev,
                libxmu-dev,
                libxft-dev,
@@ -29,10 +33,10 @@ Build-Depends: debhelper (>= 10),
                bison,
                libbison-dev,
                xbitmaps
-Standards-Version: 4.1.2
+Standards-Version: 4.5.0
 Homepage: https://sourceforge.net/projects/cdesktopenv/
-#Vcs-Git: https://anonscm.debian.org/git/collab-maint/cde-desktop.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/cde-desktop.git
+Vcs-Git: https://git.code.sf.net/p/cdesktopenv/code cdesktopenv-code
+Vcs-Browser: https://sourceforge.net/p/cdesktopenv/code/
 
 Package: cde-desktop
 Architecture: any
