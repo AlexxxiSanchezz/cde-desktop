@@ -6,12 +6,12 @@
 
 #make clean cleans everything except the doc directory for some reason
 override_dh_auto_clean:
-	$(MAKE) clean
-	$(MAKE) clean.doc
+	dh_auto_clean && \
+	make clean.doc
 
 #make World needs to be called, not just make
 override_dh_auto_build:
-	$(MAKE) World
+	make World
 
 #make install is broken, so we use the install script instead
 override_dh_auto_install:
