@@ -227,7 +227,8 @@ Copyright: 1993 - 2012 The Open Group
 License: LGPL-2+ or X11, and NTP
 
 Files: debian/*
-Copyright: 2018 TheSelousScout <nicetrynsa@protonmail.ch>
+Copyright: 2018 TheSelousScout <nicetrynsa@protonmail.ch>,
+           2020 UbuntuCDE Remix Maintainers <UbuntuCDE@protonmail.com>
 License: LGPL-2+ or Expat
 
 License: LGPL-2+
